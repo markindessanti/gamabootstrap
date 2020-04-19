@@ -1,3 +1,85 @@
+body {
+	background-color: #e6e6e6;
+}
+
+.container {
+	background-color: white;
+}
+
 h3 {
 	text-align: center;
+	margin: 20px auto;
+}
+
+.img-fluid {
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	box-shadow: 0 5px 15px 1px #b1b1b1;
+}
+
+/* .container .row .col-md-12 {
+	text-align: center;
+} */
+
+.tituloDestaques {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.card {
+	margin: 20px auto;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.card .card-img-top {
+	width: 60%;
+	margin: 10px auto;
+}
+
+.redessociais p a {
+	text-decoration: none;
+	color: ivory;
+}
+
+.redessociais p img {
+    width: 40px;
+    margin: 0 15px;
+}
+
+input, label, h3, textarea , button {
+    margin: 5px 10px 0;
+}
+
+#divform h3 {
+    text-shadow: none !important;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+}
+
+#creditos {
+	padding-top: 30px;
+    background-color: #575656;
+    color: ivory;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: ivory;
+    background-color: #6161f5;
+    border: 1px solid #6161f5;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+}
+
+.footer {
+	background-color: #575656;
+	color: ivory;
+	padding-top: 20px;
 }
