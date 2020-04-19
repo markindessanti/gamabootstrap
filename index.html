@@ -59,7 +59,7 @@
 						<h6 class="card-subtitle mb-2 text-muted">Produto 1</h6>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
 							the card's content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Abrir o modal</a>
 					</div>
 				</div>
 				<div class="card" style="width: 18rem;">
@@ -83,7 +83,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row footer">
+			<div class="row pagefooter">
 				<div class="col-md-6 redessociais">
 					<p><img src="img/whatsappIcon.png" alt="WhatsApp" />(31) 99555-4356</p>
 					<p><a href="htttps://www.facebook.com/lojinhadainternet">
@@ -95,7 +95,7 @@
 				</div>
 				<div class="col-md-6 divform">
 					<h3>FALE CONOSCO</h3>
-					<form action="contato.html" method="post">
+					<!-- <form action="contato.html" method="post">
 						<label for="lblNome">Nome:</label><br>
 						<input type="text" name="txtNome" id="txtNome" placeholder="Digite seu nome" /><br>
 						<label for="lblEmail">E-mail:</label><br>
@@ -104,6 +104,26 @@
 						<textarea name="txtMensagem" id="txtMensagem" placeholder="Digite sua mensagem" cols="30" rows="10"></textarea><br>
 						<button type="submit">Enviar</button>
 						<button type="reset">Limpar</button>
+					</form> -->
+					<form>
+						<div class="form-group">
+							<label for="txtNome">Nome:</label>
+							<input type="txtNome" class="form-control" id="txtNome" placeholder="Digite seu nome">
+						</div>
+						<div class="form-group">
+							<label for="lblInputEmail1">E-mail:</label>
+							<input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+								placeholder="Digite seu e-mail">
+							<small id="emailHelp" class="form-text text-muted">Nós nunca compartilharemos seu email com
+								ninguém.</small>
+						</div>
+						<div class="form-group">
+							<label for="txtArea">Mensagem:</label>
+							<textarea name="txtArea" id="txtArea" cols="30" rows="10"
+								placeholder="Digite aqui sua mensagem"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Enviar</button>
+						<button type="reset" class="btn btn-primary">Limpar</button>
 					</form>
 				</div>
 			</div>
@@ -112,6 +132,28 @@
 					<p>Desenvolvido por &copy;Markin Dessanti</p>
 				</div>
 			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+				aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>OK!!! O Modal está funcionando!!!</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+							<button type="button" class="btn btn-primary">Salvar alterações</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Fim Modal -->
 		</div>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

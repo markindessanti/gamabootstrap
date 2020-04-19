@@ -48,7 +48,7 @@ h3 {
     margin: 0 15px;
 }
 
-input, label, h3, textarea , button {
+/* input, label, h3, textarea , button {
     margin: 5px 10px 0;
 }
 
@@ -58,6 +58,20 @@ input, label, h3, textarea , button {
     font-weight: bold;
     margin-bottom: 20px;
     letter-spacing: 0.1em;
+} */
+
+textarea {
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.divform {
+	padding: 0 30px;
+}
+
+.divform small {
+	color: #b6b871 !important;
 }
 
 #creditos {
@@ -68,7 +82,7 @@ input, label, h3, textarea , button {
     justify-content: center;
 }
 
-button {
+/* button {
     color: ivory;
     background-color: #6161f5;
     border: 1px solid #6161f5;
@@ -76,9 +90,9 @@ button {
     font-weight: bold;
     width: 80px;
     height: 40px;
-}
+} */
 
-.footer {
+.row.pagefooter {
 	background-color: #575656;
 	color: ivory;
 	padding-top: 20px;
